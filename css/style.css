@@ -1,0 +1,50 @@
+.texto-comum,
+.titulo-site,
+.subtitulo {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho-principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-bottom: 2px solid #e9ecef;
+}
+
+.menu-navegacao {
+  display: flex;
+  gap: 15px;
+}
+
+.link-menu {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.container-layout {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.conteudo-principal {
+  flex: 3;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0, 1);
+}
+
+.barra-lateral {
+  flex: 1;
+  background-color: #e9ecef;
+  padding: 20px;
+  border-radius: 8px;
+}
