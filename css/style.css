@@ -48,3 +48,12 @@
   padding: 20px;
   border-radius: 8px;
 }
+
+.link-menu {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.link-menu:hover {
+  background-color: #0056b3;
+  color: #ffffff;
+}
