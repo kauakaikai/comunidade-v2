@@ -16,6 +16,8 @@
 .menu-navegacao {
   display: flex;
   gap: 15px;
+  background-color: #ffffff;
+  justify-content: flex-end;
 }
 
 .link-menu {
@@ -24,6 +26,7 @@
   font-weight: bold;
   padding: 10px 15px;
   border-radius: 5px;
+  margin: auto;
 }
 
 .container-layout {
@@ -56,4 +59,58 @@
 .link-menu:hover {
   background-color: #0056b3;
   color: #ffffff;
+}
+
+.formulario-cadastro {
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo-principal {
+  align-items: center;
+  background-color: #f8f9fa;
+  margin: 50px 150px 10px 150px;
+  border-bottom: 2px solid #e9ecef;
+  border-radius: 6px;
+  box-shadow: 4 4px 4px rgba(0, 0, 0, 0, 1);
+}
+
+.botao-enviar {
+  background-color: #28a541;
+  margin: 10px 840px 0px 0px;
+  border-radius: 8px;
+  padding: 15px 0px 15px 5px;
+  color: #ffffff;
+  border: 1px solid #e9ecef;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.body-cadastro {
+  background-color: #e9ecef;
+  margin: 0px;
+}
+
+.campo-entrada {
+  padding: 15px 0px 15px 5px;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+  margin: 6px 840px 6px 0px;
+}
+
+.rotulo-campo {
+  color: grey;
+}
+
+.titulo-site-2 {
+  margin: 0px 1500px 0px 10px;
+  color: #0056b3;
+  padding: 20px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
 }
